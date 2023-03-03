@@ -1,0 +1,45 @@
+{
+  "matchID": "123",
+  "scoreT": 0,
+  "lineups": {
+    "2": [
+      "76561198073239050",
+      "76561198355147054"
+    ],
+    "3": [
+      "76561199411823892"
+    ]
+  },
+  "tick": 22715,
+  "player_scores": [
+    {
+      "score": 0,
+      "client": 1,
+      "steamid": "76561199411823892",
+      "deaths": 0,
+      "assists": 0,
+      "kills": 0,
+      "mvp": 0
+    },
+    {
+      "score": 0,
+      "client": 2,
+      "steamid": "76561198073239050",
+      "deaths": 0,
+      "assists": 0,
+      "kills": 0,
+      "mvp": 0
+    },
+    {
+      "score": 0,
+      "client": 3,
+      "steamid": "76561198355147054",
+      "deaths": 0,
+      "assists": 0,
+      "kills": 0,
+      "mvp": 0
+    }
+  ],
+  "type": "round_start",
+  "scoreCT": 0
+}

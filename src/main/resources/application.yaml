@@ -1,0 +1,31 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: inui-kafka-service
+  data:
+    mongodb:
+      uri: mongodb://Guru99:password@localhost:27017/inui
+  webflux:
+    base-path: /api/v1
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: inui-gamestats-service
+      auto-offset-reset: earliest
+    producer:
+      bootstrap-servers: localhost:9092
+    topics:
+      inui-service-topic: inui-gamestats-service
+      inui-gw-topic: inui-gw-topic
+
+inui:
+  userprofile:
+    enableKafka: true
+    gateaway-topic: inui-gw-topic
+    notification-topic: inui-notification-service
+    chat-topic: inui-chat-service
+    input-topic: inui-profile-service
+    debug-topic: inui-profile-service-debug
+    file-storage-topic: inui-file-service

@@ -1,0 +1,43 @@
+{
+  "messageBody": {
+    "teamName": "INUI",
+    "friendRequestSent": false,
+    "country": "FR",
+    "city": "Saratov",
+    "about": "",
+    "avatarThumbSrc": [
+      "https://s3.fr-par.scw.cloud/dev-media-storage/06efd772-0700-4ca9-ba4b-935351df90e7.gif"
+    ],
+    "memberSince": "2022-11-01T20:00:00",
+    "avatarId": "06efd772-0700-4ca9-ba4b-935351df90e7",
+    "publicName": "kuzmitch",
+    "nickname": "kuzmitch32",
+    "isFriend": false,
+    "isBlockedByMe": true,
+    "authStatus": "",
+    "avatarThumbId": [
+      "06efd772-0700-4ca9-ba4b-935351df90e7"
+    ],
+    "stateProvince": "Saratov",
+    "lastVisit": "2023-01-27T14:46:07.356",
+    "blockedMe": false,
+    "userId": "LV8QYNBTRZ9RIFQF",
+    "isFollowed": true,
+    "realName": "Maksim",
+    "phoneNumber": "",
+    "backgroundSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/8a69344e-ea1c-4a3b-b27f-8f9df6eb91fb.gif",
+    "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/06efd772-0700-4ca9-ba4b-935351df90e7.gif",
+    "backgroundId": "8a69344e-ea1c-4a3b-b27f-8f9df6eb91fb",
+    "username": "Maksim",
+    "status": "OFFLINE"
+  },
+  "headers": {
+    "X-APPLICATION-NAME": "inui-api-gateway",
+    "X-TIMESTAMP": "2023-01-29T17:04:14.419316967Z",
+    "X-STATUS": "SUCCESS",
+    "X-USER-ID": "LER47QJSFN2ZJQ0V",
+    "X-EVENT-NAME": "get_user_profile",
+    "X-TRACE-ID": "a3043784-7334-4091-98ae-cbc2a2c131f5",
+    "X-RE-TRACE-ID": "a4fdee0d-aae5-42fe-8ac1-f8f58d7df225"
+  }
+}

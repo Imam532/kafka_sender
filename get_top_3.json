@@ -1,0 +1,41 @@
+[
+  {
+    "userId": "BGFVSBHWBDYKNTOL",
+    "steamId": "76561198355147054",
+    "nickname": "StarScream902",
+    "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/58cf771d-08ae-458c-83fa-b865b88f1c75.gif",
+    "score": 0,
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "winRate": 0.0,
+    "kdRate": 0.0,
+    "headshotRate": 0.0
+  },
+  {
+    "userId": "PFNM3NDLEL1QJN8Y",
+    "steamId": "76561199411823892",
+    "nickname": "kuzmitch32",
+    "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/39025a53-2d0e-4fc5-b8f6-b0e50ac04c7e.gif",
+    "score": 0,
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "winRate": 0.0,
+    "kdRate": 0.0,
+    "headshotRate": 0.0
+  },
+  {
+    "userId": "LER47QJSFN2ZJQ0V",
+    "steamId": "76561198073239050",
+    "nickname": "imamdin1",
+    "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/297f076e-ab20-4bce-8b75-c4b544f67f1c.gif",
+    "score": 0,
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "winRate": 0.0,
+    "kdRate": 0.0,
+    "headshotRate": 0.0
+  }
+]

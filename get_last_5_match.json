@@ -1,0 +1,52 @@
+[
+  {
+    "map": "OVERPASS",
+    "date": "2023-02-27T08:05:08.5201601",
+    "status": "LOSE",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "score": "0:0",
+    "matchId": ""
+  },
+  {
+    "map": "VERTIGO",
+    "date": "2023-02-27T08:05:08.5201601",
+    "status": "LOSE",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "score": "0:0",
+    "matchId": ""
+  },
+  {
+    "map": "INFERNO",
+    "date": "2023-02-27T08:05:08.5201601",
+    "status": "LOSE",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "score": "0:0",
+    "matchId": ""
+  },
+  {
+    "map": "TRAIN",
+    "date": "2023-02-27T08:05:08.5201601",
+    "status": "LOSE",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "score": "0:0",
+    "matchId": ""
+  },
+  {
+    "map": "CACHE",
+    "date": "2023-02-27T08:05:08.5201601",
+    "status": "LOSE",
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "score": "0:0",
+    "matchId": ""
+  }
+]
