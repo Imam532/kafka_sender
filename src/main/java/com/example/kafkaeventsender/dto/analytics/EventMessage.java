@@ -6,11 +6,13 @@ import inui.models.statistic.GameEvent;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+import java.util.List;
+
 
 @Data
 @Accessors(chain = true)
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class EventMessage {
-    private GameEvent event;
+    private String event;
 }

@@ -7,19 +7,16 @@ spring:
   data:
     mongodb:
       uri: mongodb://Guru99:password@localhost:27017/inui
-  webflux:
-    base-path: /api/v1
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
-      group-id: inui-gamestats-service
+      group-id: inui-library-service
       auto-offset-reset: earliest
     producer:
       bootstrap-servers: localhost:9092
     topics:
-      inui-service-topic: inui-gamestats-service
+      inui-service-topic: inui-library-service
       inui-gw-topic: inui-gw-topic
-
 inui:
   userprofile:
     enableKafka: true
@@ -29,3 +26,6 @@ inui:
     input-topic: inui-profile-service
     debug-topic: inui-profile-service-debug
     file-storage-topic: inui-file-service
+logging:
+  level:
+    org.apache.kafka.clients: WARN

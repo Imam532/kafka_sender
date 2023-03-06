@@ -32,7 +32,7 @@ public class EventClient {
         webClient
                 .post()
                 .uri("/api/v1/statistics")
-                .body(getMessage(), String.class)
+                .body(getMessage(), EventMessage.class)
                 .retrieve()
                 .bodyToMono(String.class)
                 .subscribe(System.out::println);
@@ -41,7 +41,7 @@ public class EventClient {
     private Flux<EventMessage> getMessage() {
         try {
             String s = IOUtils.toString(
-                    requireNonNull(getSystemResourceAsStream("match_log.json")),
+                    requireNonNull(getSystemResourceAsStream("match_log_2half.json")),
                     UTF_8);
             List<EventMessage> eventMessages = JsonConverter.objectFromJson(s, new TypeReference<List<EventMessage>>() {
             });
