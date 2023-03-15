@@ -35,7 +35,7 @@ public class MessageController {
     @SneakyThrows
     @GetMapping
     public String matchStart() {
-        String s = IOUtils.toString(requireNonNull(getSystemResourceAsStream("match_start.json")), UTF_8);
+        String s = IOUtils.toString(requireNonNull(getSystemResourceAsStream("match_for_start.json")), UTF_8);
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
         kafkaMessage.setHeaders(getHeaders(Events.NEW_MATCH_START, "userId"));
