@@ -1,6 +1,5 @@
 {
-  "matchId": "321",
-  "startTime": "2023-02-08T19:25:07.2135677",
+  "lobbyId": "321",
   "type": "game2x2",
   "left": [
     {
@@ -24,6 +23,6 @@
   ],
   "length": "LONG",
   "map": [
-    "INFERNO"
+    "de_inferno"
   ]
 }

@@ -4,10 +4,12 @@ import com.example.kafkaeventsender.client.EventClient;
 import com.example.kafkaeventsender.dto.profile.FindUserProfilePayload;
 import com.example.kafkaeventsender.dto.profile.GetFriendsPayload;
 import com.example.kafkaeventsender.dto.profile.ProfilePayload;
+import com.example.kafkaeventsender.dto.profile.SetUserStatusPayload;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.inuigaming.inuieventstarter.kafka.MessageService;
 import inui.models.constants.Events;
 import inui.models.kafka.KafkaMessage;
+import inui.models.profile.UserStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -105,6 +107,19 @@ public class ProfileController {
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
         kafkaMessage.setHeaders(getHeaders(FIND_USER_PROFILE, userId));
+        messageService.sendMessage(kafkaMessage, "inui-profile-service");
+        return "ok";
+    }
+
+    @SneakyThrows
+    @GetMapping("/setStatus")
+    private String setStatus(@RequestParam("userId") String userId, @RequestParam("status") String status) {
+
+        String s = new ObjectMapper().writeValueAsString(new SetUserStatusPayload(UserStatus.forValue(status)));
+
+        KafkaMessage kafkaMessage = new KafkaMessage();
+        kafkaMessage.setMessageBody(s);
+        kafkaMessage.setHeaders(getHeaders(SET_USER_STATUS, userId));
         messageService.sendMessage(kafkaMessage, "inui-profile-service");
         return "ok";
     }

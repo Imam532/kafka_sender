@@ -1,6 +1,5 @@
 {
-  "matchId": "1234",
-  "startTime": "2023-03-13T11:35:00.0000000",
+  "lobbyId": "321",
   "type": "game2x2",
   "left": [
     {
@@ -40,6 +39,6 @@
   ],
   "length": "LONG",
   "map": [
-    "MIRAGE"
+    "de_mirage"
   ]
 }
