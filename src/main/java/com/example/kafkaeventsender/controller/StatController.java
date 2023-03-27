@@ -3,13 +3,11 @@ package com.example.kafkaeventsender.controller;
 import com.example.kafkaeventsender.client.EventClient;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inuigaming.inuieventstarter.JsonConverter;
-import com.inuigaming.inuieventstarter.convertors.KafkaMessageCreator;
 import com.inuigaming.inuieventstarter.kafka.MessageService;
 import inui.models.blog.rq.RequestById;
 import inui.models.constants.Events;
 import inui.models.kafka.KafkaMessage;
-import inui.models.statistic.Match;
+import inui.models.statistic.rq.StatPayload;
 import io.micrometer.core.instrument.util.IOUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
@@ -26,7 +24,7 @@ import static java.util.Objects.requireNonNull;
 @RestController
 @RequestMapping("/send")
 @RequiredArgsConstructor
-public class MessageController {
+public class StatController {
 //    private final KafkaEventSender eventSender;
     private final EventClient eventClient;
     private final MessageService messageService;
@@ -44,32 +42,55 @@ public class MessageController {
     }
 
     @GetMapping("/event")
-    private String sendGameEvents() {
-        eventClient.sendMessages();
+    private String sendGameEvents(@RequestParam("file") String file) {
+        eventClient.sendMessages(file);
         return "ok";
     }
 
     @SneakyThrows
-    @GetMapping("/v1/{event}")
-    private String send3(@PathVariable String event, @RequestParam("userId") String userId) {
-        RequestById body = new RequestById();
-        body.setId(userId);
+    @GetMapping("/user/{publicName}")
+    private String getUserStat(@PathVariable String publicName, @RequestParam("query") String userId) {
+        StatPayload body = new StatPayload().setPublicName(publicName).setMatchId(userId);
         String s = new ObjectMapper().writeValueAsString(body);
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
-        kafkaMessage.setHeaders(getHeaders(event, userId));
+        kafkaMessage.setHeaders(getHeaders(Events.GET_USER_STAT, userId));
         messageService.sendMessage(kafkaMessage, "inui-gamestats-service");
         return "ok";
     }
 
-    @GetMapping("/match/{event}")
-    private String send4(@PathVariable String event, @RequestParam("matchId") String matchId) throws JsonProcessingException {
-        RequestById body = new RequestById();
-        body.setId(matchId);
+    @SneakyThrows
+    @GetMapping("/top3/{userId}")
+    private String getUserStat(@PathVariable String userId) {
+        StatPayload body = new StatPayload().setMatchId(userId);
         String s = new ObjectMapper().writeValueAsString(body);
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
-        kafkaMessage.setHeaders(getHeaders(event, "userId"));
+        kafkaMessage.setHeaders(getHeaders(Events.GET_TOP_3_PLAYER_STAT, userId));
+        messageService.sendMessage(kafkaMessage, "inui-gamestats-service");
+        return "ok";
+    }
+
+    @SneakyThrows
+    @GetMapping("/last5/{userId}")
+    private String getLast5Match(@PathVariable String userId) {
+        StatPayload body = new StatPayload().setMatchId(userId);
+        String s = new ObjectMapper().writeValueAsString(body);
+        KafkaMessage kafkaMessage = new KafkaMessage();
+        kafkaMessage.setMessageBody(s);
+        kafkaMessage.setHeaders(getHeaders(Events.GET_LAST_5_MATCH_STAT, userId));
+        messageService.sendMessage(kafkaMessage, "inui-gamestats-service");
+        return "ok";
+    }
+
+    @GetMapping("/match/{matchId}")
+    private String getMatchStat(@PathVariable String matchId, @RequestParam("query") String query) throws JsonProcessingException {
+        StatPayload statPayload = new StatPayload().setMatchId(matchId);
+        String s = new ObjectMapper().writeValueAsString(statPayload);
+
+        KafkaMessage kafkaMessage = new KafkaMessage();
+        kafkaMessage.setMessageBody(s);
+        kafkaMessage.setHeaders(getHeaders(Events.GET_MATCH_STAT, query));
         messageService.sendMessage(kafkaMessage, "inui-gamestats-service");
         return "ok";
     }

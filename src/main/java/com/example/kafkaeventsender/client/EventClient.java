@@ -28,20 +28,20 @@ public class EventClient {
 //    private final KafkaEventSender sender;
     private final WebClient webClient;
 
-    public void sendMessages() {
+    public void sendMessages(String file) {
         webClient
                 .post()
                 .uri("/api/v1/statistics")
-                .body(getMessage(), EventMessage.class)
+                .body(getMessage(file), EventMessage.class)
                 .retrieve()
                 .bodyToMono(String.class)
                 .subscribe(System.out::println);
     }
 
-    private Flux<EventMessage> getMessage() {
+    private Flux<EventMessage> getMessage(String file) {
         try {
             String s = IOUtils.toString(
-                    requireNonNull(getSystemResourceAsStream("match_log_2half.json")),
+                    requireNonNull(getSystemResourceAsStream(file)),
                     UTF_8);
             List<EventMessage> eventMessages = JsonConverter.objectFromJson(s, new TypeReference<List<EventMessage>>() {
             });
