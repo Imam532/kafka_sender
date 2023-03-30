@@ -61,7 +61,7 @@ public class StatController {
 
     @SneakyThrows
     @GetMapping("/top3/{userId}")
-    private String getUserStat(@PathVariable String userId) {
+    private String getTop3(@PathVariable String userId) {
         StatPayload body = new StatPayload().setMatchId(userId);
         String s = new ObjectMapper().writeValueAsString(body);
         KafkaMessage kafkaMessage = new KafkaMessage();

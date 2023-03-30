@@ -1,5 +1,8 @@
 [
   {
+    "event": "{\"matchID\":\"321\",\"tick\":50305,\"type\":\"round_officially_ended\", \"phase\":\"halftime\"}"
+  },
+  {
     "event": "{\"matchID\":\"321\",\"tick\":49700,\"type\":\"weapon_fire\",\"weapon\":\"weapon_aug\",\"attacker\":{\"name\":\"saa\",\"steamid\":\"76561199411823892\",\"team\":3,\"client\":3}}"
   },
   {

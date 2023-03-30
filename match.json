@@ -1,11 +1,38 @@
 {
-  "messageBody": "{\r\n  \"messageBody\": {\r\n    \"matchId\": \"1234\",\r\n    \"startTime\": \"2023-03-15T12:35:00.0000000\",\r\n    \"type\": \"game2x2\",\r\n    \"left\": [\r\n      {\r\n        \"userId\": \"BGFVSBHWBDYKNTOL\",\r\n        \"nickname\": \"Starscream902\",\r\n        \"publicName\": \"StarScream902\",\r\n        \"avatarSrc\": \"https://s3.fr-par.scw.cloud/dev-file-storage/43508043-a548-490b-a9f0-c03905884170.png\",\r\n        \"owner\": false,\r\n        \"steamId\": \"76561199411823892\",\r\n        \"ban\": null\r\n      },\r\n      {\r\n        \"userId\": \"LV8QYNBTRZ9RIFQF\",\r\n        \"nickname\": \"kuzmitch32\",\r\n        \"publicName\": \"kuzmitch\",\r\n        \"avatarSrc\": \"https://s3.fr-par.scw.cloud/dev-media-storage/39025a53-2d0e-4fc5-b8f6-b0e50ac04c7e.gif\",\r\n        \"owner\": false,\r\n        \"steamId\": \"76561198073239050\",\r\n        \"ban\": null\r\n      }\r\n    ],\r\n    \"right\": [\r\n      {\r\n        \"userId\": \"LER47QJSFN2ZJQ0V\",\r\n        \"nickname\": \"imamdin12\",\r\n        \"publicName\": \"imamdin5\",\r\n        \"avatarSrc\": \"https://s3.fr-par.scw.cloud/dev-media-storage/297f076e-ab20-4bce-8b75-c4b544f67f1c.gif\",\r\n        \"owner\": false,\r\n        \"steamId\": \"76561198005117797\",\r\n        \"ban\": null\r\n      },\r\n      {\r\n        \"userId\": \"UXUCJ3CCFY1SJMKM\",\r\n        \"nickname\": \"10001\",\r\n        \"publicName\": \"nissan\",\r\n        \"avatarSrc\": \"https://s3.fr-par.scw.cloud/dev-media-storage/e7f04a42-eb7c-4a4f-9c71-325806c09ea7.gif\",\r\n        \"owner\": false,\r\n        \"steamId\": \"76561199406375774\",\r\n        \"ban\": null\r\n      }\r\n    ],\r\n    \"length\": \"LONG\",\r\n    \"map\": [\r\n      \"VERTIGO\"\r\n    ]\r\n  }\r\n}",
-  "headers": {
-    "X-TIMESTAMP": "2023-03-15T12:16:54.4651617",
-    "X-STATUS": "SUCCESS",
-    "X-USER-ID": "BGFVSBHWBDYKNTOL",
-    "X-APPLICATION-NAME": "inui-api-gateway",
-    "X-TRACE-ID": "a3043784-7334-4091-98ae-cbc2a2c131f5",
-    "X-EVENT-NAME": "new_match_start"
-  }
+  "teamName": "action helicopters",
+  "friendRequestSent": false,
+  "country": "NL",
+  "city": "Chingishan",
+  "friendRequestsCount": 0,
+  "about": "вола Фыдлофыа ды оалфи йцщжу йцэжу выфь",
+  "avatarThumbSrc": [
+    "https://s3.fr-par.scw.cloud/dev-media-storage/e7f04a42-eb7c-4a4f-9c71-325806c09ea7.gif"
+  ],
+  "memberSince": "2022-11-01T20:00:00",
+  "avatarId": "e7f04a42-eb7c-4a4f-9c71-325806c09ea7",
+  "publicName": "nissan",
+  "postsCount": 1,
+  "nickname": "10001",
+  "isFriend": false,
+  "isBlockedByMe": false,
+  "authStatus": "",
+  "avatarThumbId": [
+    "e7f04a42-eb7c-4a4f-9c71-325806c09ea7"
+  ],
+  "stateProvince": "777",
+  "lastVisit": "2023-03-29T09:24:20.552521446",
+  "friendsCount": 2,
+  "blockedMe": false,
+  "userId": "UXUCJ3CCFY1SJMKM",
+  "isFollowed": false,
+  "realName": "OFF MY FACE DON'T KNOW WHERE I AM CAUSE I GOT MY DRUGS FROM AMSTERDAM ",
+  "phoneNumber": "777",
+  "blockedUsersCount": 0,
+  "backgroundSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/a26a30ef-a2ec-482e-861a-400b92479d21.gif",
+  "followedCount": 1,
+  "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/e7f04a42-eb7c-4a4f-9c71-325806c09ea7.gif",
+  "followersCount": 0,
+  "backgroundId": "a26a30ef-a2ec-482e-861a-400b92479d21",
+  "username": "KIA rio",
+  "status": "ONLINE"
 }
