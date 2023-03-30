@@ -4,6 +4,7 @@ import com.example.kafkaeventsender.dto.profile.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.inuigaming.inuieventstarter.kafka.MessageService;
 import inui.models.kafka.KafkaMessage;
+import inui.models.profile.PatchUserProfileRq;
 import inui.models.profile.ProfilePayload;
 import inui.models.profile.UserStatus;
 import lombok.RequiredArgsConstructor;
@@ -149,7 +150,7 @@ public class ProfileController {
 
     @SneakyThrows
     @PostMapping("/patch/{userId}")
-    public String patchUserProfile(@PathVariable("userId") String userId, @RequestBody String payload) {
+    public String patchUserProfile(@PathVariable("userId") String userId, @RequestBody PatchUserProfileRq payload) {
         String s = new ObjectMapper().writeValueAsString(payload);
 
         KafkaMessage kafkaMessage = new KafkaMessage();
@@ -248,9 +249,49 @@ public class ProfileController {
 
     @SneakyThrows
     @GetMapping("/block/{userId}")
+    public String setBlock(@PathVariable String userId,
+                           @RequestParam String publicName,
+                           @RequestParam(required = false, defaultValue = "") String search
+    ) {
+
+        String s = new ObjectMapper().writeValueAsString(new ProfilePayload()
+                .setPublicName(publicName)
+                .setSearch(search)
+                .setPage(0)
+                .setSize(20));
+
+        KafkaMessage kafkaMessage = new KafkaMessage();
+        kafkaMessage.setMessageBody(s);
+        kafkaMessage.setHeaders(getHeaders(BLOCK_USER, userId));
+        messageService.sendMessage(kafkaMessage, PROFILE_TOPIC);
+        return HttpStatus.OK.getReasonPhrase();
+    }
+
+    @SneakyThrows
+    @GetMapping("/unblock/{userId}")
+    public String setUnblock(@PathVariable String userId,
+                             @RequestParam String publicName,
+                             @RequestParam(required = false, defaultValue = "") String search
+    ) {
+
+        String s = new ObjectMapper().writeValueAsString(new ProfilePayload()
+                .setPublicName(publicName)
+                .setSearch(search)
+                .setPage(0)
+                .setSize(20));
+
+        KafkaMessage kafkaMessage = new KafkaMessage();
+        kafkaMessage.setMessageBody(s);
+        kafkaMessage.setHeaders(getHeaders(UNBLOCK_USER, userId));
+        messageService.sendMessage(kafkaMessage, PROFILE_TOPIC);
+        return HttpStatus.OK.getReasonPhrase();
+    }
+
+    @SneakyThrows
+    @GetMapping("/block-list/{userId}")
     public String getBlockList(@PathVariable String userId,
-                              @RequestParam String publicName,
-                              @RequestParam(required = false, defaultValue = "") String search
+                               @RequestParam String publicName,
+                               @RequestParam(required = false, defaultValue = "") String search
     ) {
 
         String s = new ObjectMapper().writeValueAsString(new ProfilePayload()
@@ -267,11 +308,12 @@ public class ProfileController {
     }
 
     @SneakyThrows
-    @GetMapping("/findProfile")
-    private String findProfile(@RequestParam("userId") String userId, @RequestParam("nickname") String nickname) {
+    @GetMapping("/findProfiles/{userId}")
+    public String findProfiles(@PathVariable String userId,
+                               @RequestParam(required = false, defaultValue = "") String search) {
 
-        String s = new ObjectMapper().writeValueAsString(new FindUserProfilePayload()
-                .setNickname(nickname)
+        String s = new ObjectMapper().writeValueAsString(new ProfilePayload()
+                .setSearch(search)
                 .setHideFriends(true)
                 .setPage(0)
                 .setSize(20));
@@ -279,8 +321,8 @@ public class ProfileController {
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
         kafkaMessage.setHeaders(getHeaders(FIND_USER_PROFILE, userId));
-        messageService.sendMessage(kafkaMessage, "inui-profile-service");
-        return "ok";
+        messageService.sendMessage(kafkaMessage, PROFILE_TOPIC);
+        return HttpStatus.OK.getReasonPhrase();
     }
 
     @SneakyThrows
