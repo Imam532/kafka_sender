@@ -188,12 +188,13 @@ public class ProfileController {
     @GetMapping("/friends/{userId}")
     public String getFriends(@PathVariable String userId,
                              @RequestParam String publicName,
-                             @RequestParam(required = false, defaultValue = "") String search
+                             @RequestParam(required = false, defaultValue = "") String search,
+                             @RequestParam(required = false, defaultValue = "true") Boolean isConfirmed
     ) {
 
         String s = new ObjectMapper().writeValueAsString(new ProfilePayload()
                 .setPublicName(publicName)
-                .setSelfConfirm(true)
+                .setSelfConfirm(isConfirmed)
                 .setFriendConfirm(true)
                 .setSearch(search)
                 .setPage(0)
