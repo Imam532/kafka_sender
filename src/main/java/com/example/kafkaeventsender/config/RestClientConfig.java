@@ -10,7 +10,7 @@ public class RestClientConfig {
     @Bean
     public WebClient integrationServiceWebClient() {
         return WebClient.builder()
-                .baseUrl("http://localhost:8080")
+                .baseUrl("http://localhost:8081")
                 .build();
     }
 }

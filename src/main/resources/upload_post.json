@@ -1,0 +1,63 @@
+{
+  "content": {
+    "type": "doc",
+    "content": [
+      {
+        "type": "codeBlock",
+        "attrs": {
+          "language": null
+        }
+      },
+      {
+        "type": "image",
+        "attrs": {
+          "src": "https://cdn.sandbox.inui.store/sandbox-file-storage/VAXQZ0V6FLTX8PMJ/2023/4/1fe6d76f-ae71-403e-a672-6cd4f3f9434c.png",
+          "alt": null,
+          "title": null
+        }
+      }
+    ]
+  },
+  "draft": false,
+  "saved": false,
+  "liked": false,
+  "recommendedReview": null,
+  "id": null,
+  "postType": "POST",
+  "communityId": "",
+  "title": "Wh0 is next?",
+  "userId": "VAXQZ0V6FLTX8PMJ",
+  "likes": [],
+  "likesCount": 0,
+  "dislikesCount": null,
+  "viewsCount": 0,
+  "commentsCount": 0,
+  "savedCount": 0,
+  "isDraft": false,
+  "createdDate": "2023-04-25T09:17:52.417",
+  "visibility": "PUBLIC",
+  "nsfw": false,
+  "guideType": null,
+  "author": {
+    "userId": "VAXQZ0V6FLTX8PMJ",
+    "avatarId": "VAXQZ0V6FLTX8PMJ/2023/4/72b8d44c-c46e-483c-b22d-7ba52b085f53",
+    "avatarSrc": "https://cdn.sandbox.inui.store/sandbox-media-storage/VAXQZ0V6FLTX8PMJ/2023/4/72b8d44c-c46e-483c-b22d-7ba52b085f53.gif",
+    "nickname": "VanDamm",
+    "publicName": "VanDamm",
+    "status": null,
+    "avatarThumbSrc": null
+  },
+  "isLiked": false,
+  "isSaved": false,
+  "sendReplyNotification": false,
+  "hours": null,
+  "helpfulCount": 0,
+  "notHelpfulCount": 0,
+  "funnyCount": 0,
+  "gameIcon": "https://s3.fr-par.scw.cloud/sandbox-file-storage/74b18fb5-fb43-4407-b7d8-b4a8d97328b8.png",
+  "gameCover": "https://s3.fr-par.scw.cloud/sandbox-file-storage/0cd5b6f7-7fd6-4700-9ff2-fefe2457b048.jpeg",
+  "gameTitle": "Counter-Strike: Global Offensive",
+  "gameId": "62fdf76567b4da73ba70ee56",
+  "isRecommendedReview": null,
+  "artworkAuthor": "VanDamm"
+}

@@ -1,10 +1,13 @@
 package com.example.kafkaeventsender.client;
 
 import com.example.kafkaeventsender.dto.analytics.EventMessage;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.inuigaming.inuieventstarter.JsonConverter;
 import com.inuigaming.inuieventstarter.convertors.KafkaMessageCreator;
 import com.inuigaming.inuieventstarter.kafka.MessageService;
+import inui.models.statistic.GameEvent;
 import io.micrometer.core.instrument.util.IOUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
@@ -40,13 +43,21 @@ public class EventClient {
 
     private Flux<EventMessage> getMessage(String file) {
         try {
+            ObjectMapper objectMapper = new ObjectMapper();
             String s = IOUtils.toString(
                     requireNonNull(getSystemResourceAsStream(file)),
                     UTF_8);
-            List<EventMessage> eventMessages = JsonConverter.objectFromJson(s, new TypeReference<List<EventMessage>>() {
+            var gameEvents = JsonConverter.objectFromJson(s, new TypeReference<List<GameEvent>>() {
             });
-            Collections.reverse(eventMessages);
-            return Flux.fromIterable(eventMessages);
+            Collections.reverse(gameEvents);
+            return Flux.fromIterable(gameEvents)
+                    .map(gameEvent -> {
+                        try {
+                            return new EventMessage().setEvent(objectMapper.writeValueAsString(gameEvent));
+                        } catch (JsonProcessingException e) {
+                            return new EventMessage().setEvent("{}");
+                        }
+                    });
         } catch (Exception e) {
             return Flux.empty();
         }

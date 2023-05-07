@@ -1,0 +1,23 @@
+{
+  "profiles": null,
+  "gameId": null,
+  "showOnlyFriendsPost": false,
+  "draft": null,
+  "saved": null,
+  "communityId": null,
+  "author": null,
+  "postTypes": [
+    "SCREENSHOT",
+    "ARTWORK",
+    "VIDEO"
+  ],
+  "page": 0,
+  "size": 20,
+  "sort": [
+    "DESC",
+    "likesCount"
+  ],
+  "title_q": null,
+  "isDraft": null,
+  "isSaved": null
+}

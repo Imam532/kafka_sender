@@ -1,0 +1,70 @@
+{
+  "id": "64549f34db37672140856e11",
+  "lobbyId": "srYF-jdxl-6dIy",
+  "type": "game2x2",
+  "status": "START",
+  "team": [],
+  "left": [
+    {
+      "userId": "MSYQEXU6VW8SIP42",
+      "steamId": "76561199488195669",
+      "nickname": "vitalii",
+      "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/a0eae786-5f86-4d9c-b6a5-1b91fa7d7f8b.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null
+    },
+    {
+      "userId": "DU2K26ANLFOJEJ8J",
+      "steamId": "76561199003375588",
+      "nickname": "testchatuser",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/DU2K26ANLFOJEJ8J/2023/5/a16764bc-feca-48e9-92da-66f90a6c034f.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null
+    }
+  ],
+  "right": [
+    {
+      "userId": "BGFVSBHWBDYKNTOL",
+      "steamId": "76561199411823892",
+      "nickname": "StarScream902",
+      "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/avatar172657d8-5008-4322-952c-41a93a6a4120",
+      "publicName": "",
+      "owner": false,
+      "ban": null
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/LER47QJSFN2ZJQ0V/2023/4/8e0ab4fe-8b1e-420b-8a62-532b6d7269b2.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "DU2K26ANLFOJEJ8J"
+    },
+    {
+      "userId": "BGFVSBHWBDYKNTOL"
+    },
+    {
+      "userId": "MSYQEXU6VW8SIP42"
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V"
+    }
+  ],
+  "length": null,
+  "map": [
+    "de_vertigo"
+  ],
+  "url": "94.200.57.86:27015",
+  "connectionCode": "srYF-jdxl-6dIy",
+  "ownerId": "MSYQEXU6VW8SIP42",
+  "deleted": false,
+  "autoCreated": true
+}
