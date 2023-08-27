@@ -8,9 +8,10 @@ group = 'com.inui'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
-var modelVersion = "0.0.99"
+var modelVersion = "0.1.38"
+var eventVersion = "0.0.13"
+
 var lombokVersion = "1.18.24"
-var eventVersion = "0.0.11-SNAPSHOT"
 var mapstructVersion = "1.5.3.Final"
 var testContainerVersion = "1.17.6"
 

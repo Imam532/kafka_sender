@@ -1,0 +1,10 @@
+{
+  "messageBody":"{\"userId1\":\"R3IKEYABOUZKZARA\",\"userId2\":\"TIWN0SY8TAEU5NKS\"}",
+  "headers":{
+    "X-APPLICATION-NAME":"inui-profile-service",
+    "X-TIMESTAMP":"2023-05-31T10:57:12.435068272Z",
+    "X-USER-ID":"R3IKEYABOUZKZARA",
+    "X-EVENT-NAME":"create_private_channel",
+    "X-TRACE-ID":"55a094d81aeaa6ac"
+  }
+}
