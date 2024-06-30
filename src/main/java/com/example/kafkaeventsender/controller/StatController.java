@@ -31,9 +31,9 @@ public class StatController {
 
 
     @SneakyThrows
-    @GetMapping
-    public String matchStart() {
-        String s = IOUtils.toString(requireNonNull(getSystemResourceAsStream("game_event/match_start_event.json")), UTF_8);
+    @GetMapping("/{filename}")
+    public String matchStart(@PathVariable String filename) {
+        String s = IOUtils.toString(requireNonNull(getSystemResourceAsStream("game_event/" + filename)), UTF_8);
         KafkaMessage kafkaMessage = new KafkaMessage();
         kafkaMessage.setMessageBody(s);
         kafkaMessage.setHeaders(getHeaders(Events.NEW_MATCH_START, "userId"));

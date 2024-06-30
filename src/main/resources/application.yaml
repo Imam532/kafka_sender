@@ -15,7 +15,7 @@ spring:
     producer:
       bootstrap-servers: localhost:9092
     topics:
-      inui-service-topic: inui-library-service
+      inui-service-topic: inui-profile-service
       inui-gw-topic: inui-gw-topic
 inui:
   userprofile:

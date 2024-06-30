@@ -1,0 +1,142 @@
+{
+  "id": "660d791bd78ab7080c4d774a",
+  "lobbyId": "match-27",
+  "type": "game5x5",
+  "status": "CREATE_MATCH",
+  "team": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "left": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "DU2K26ANLFOJEJ8J",
+      "steamId": "76561198001387923",
+      "nickname": "eINUI",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/DU2K26ANLFOJEJ8J_d0d8944c-2014-4b27-8023-a9a2eed3286b.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "WMAAJQBRH5WRJGOI",
+      "userLocation": {
+        "ip": "109.252.175.63",
+        "city": "Moscow",
+        "lon": "37.6156",
+        "lat": "55.7522",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    },
+    {
+      "userId": "DU2K26ANLFOJEJ8J",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "spectate": [
+    {
+      "userId": "BVHUR6P0XKHAA3YI",
+      "steamId": "76561199652984395",
+      "nickname": "niko",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/BVHUR6P0XKHAA3YI_2ae310d2-8725-45e2-a8a2-94b123ca1b5c.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    }
+  ],
+  "length": "SHORT",
+  "map": [
+    "de_dust2"
+  ],
+  "url": null,
+  "connectionCode": "match-27",
+  "ownerId": "LER47QJSFN2ZJQ0V",
+  "deleted": false,
+  "autoCreated": false,
+  "waitServer": false,
+  "mode": "custom_mode",
+  "votePhase": null,
+  "lobbyPassword": null,
+  "createdDate": "2024-04-03T15:43:23.466"
+}

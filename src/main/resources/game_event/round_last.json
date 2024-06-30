@@ -1,6 +1,0 @@
-[
-  {"matchID":"srYF-jdxl-6dIy","tick":162349,"dmg_health":1,"victim":{"name":"testchatuser","steamid":"76561199003375588","team":3,"client":1},"type":"player_hurt","weapon":"weapon_","hitgroup":0,"dmg_armor":0},
-  {"matchID":"srYF-jdxl-6dIy","phase":"second","tick":162349,"type":"round_end"},
-  {"matchID":"srYF-jdxl-6dIy","tick":162349,"type":"round_mvp","attacker":{"name":"NotGouse","steamid":"76561198005117797","team":2,"client":4}},
-  {"matchID":"srYF-jdxl-6dIy","scoreT":16,"tick":162349,"winner":"team1","type":"get5_map_result","scoreCT":2}
-]

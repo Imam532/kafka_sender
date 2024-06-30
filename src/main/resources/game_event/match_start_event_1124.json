@@ -1,0 +1,46 @@
+{
+  "id": "64549f34db37672140856e11",
+  "lobbyId": "dxMS-AsGd-LGMJ",
+  "type": "game2x2",
+  "status": "START",
+  "team": [],
+  "left": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/a0eae786-5f86-4d9c-b6a5-1b91fa7d7f8b.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null
+    }
+  ],
+  "right": [
+    {
+      "userId": "EQVX7WRARAOPJAH5",
+      "steamId": "76561198001387923",
+      "nickname": "ant1kvar",
+      "avatarSrc": "https://s3.fr-par.scw.cloud/dev-media-storage/avatar172657d8-5008-4322-952c-41a93a6a4120",
+      "publicName": "",
+      "owner": false,
+      "ban": null
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V"
+    },
+    {
+      "userId": "EQVX7WRARAOPJAH5"
+    }
+  ],
+  "length": null,
+  "map": [
+    "de_vertigo"
+  ],
+  "url": "94.200.57.86:27015",
+  "connectionCode": "srYF-jdxl-6dIy",
+  "ownerId": "LER47QJSFN2ZJQ0V",
+  "deleted": false,
+  "autoCreated": true
+}

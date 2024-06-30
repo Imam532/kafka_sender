@@ -1,23 +1,50 @@
-{
-  "profiles": null,
-  "gameId": null,
-  "showOnlyFriendsPost": false,
-  "draft": null,
-  "saved": null,
-  "communityId": null,
-  "author": null,
-  "postTypes": [
-    "SCREENSHOT",
-    "ARTWORK",
-    "VIDEO"
-  ],
-  "page": 0,
-  "size": 20,
-  "sort": [
-    "DESC",
-    "likesCount"
-  ],
-  "title_q": null,
-  "isDraft": null,
-  "isSaved": null
-}
+[
+  {
+    "victim": {
+      "steamid": "76561198073239050",
+      "side": "ct"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_revolver",
+      "hp_damage": 77,
+      "armor_damage": 0
+    },
+    "attacker": {
+      "steamid": "76561199003375588",
+      "side": "t"
+    },
+    "matchid": "Dcgd-xerm-a5y1",
+    "event": "player_death",
+    "tick": 16398
+  },
+  {
+    "victim": {
+      "steamid": "76561198073239050",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561199003375588",
+      "side": "t"
+    },
+    "hit_group": 2,
+    "weapon_info": {
+      "name": "weapon_deagle",
+      "hp_damage": 77,
+      "armor_damage": 0
+    },
+    "matchid": "Dcgd-xerm-a5y1",
+    "event": "player_hurt",
+    "tick": 16398
+  },
+  {
+    "attacker": {
+      "steamid": "76561199003375588",
+      "side": "t"
+    },
+    "weapon": "weapon_revolver",
+    "matchid": "Dcgd-xerm-a5y1",
+    "event": "weapon_fire",
+    "tick": 16398
+  }
+]

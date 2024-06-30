@@ -1,24 +1,22 @@
 package com.example.kafkaeventsender.client;
 
-import com.example.kafkaeventsender.dto.analytics.EventMessage;
-import com.fasterxml.jackson.core.JsonProcessingException;
+import com.example.kafkaeventsender.dto.v2.CSPluginEvent;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.inuigaming.inuieventstarter.JsonConverter;
 import com.inuigaming.inuieventstarter.convertors.KafkaMessageCreator;
 import com.inuigaming.inuieventstarter.kafka.MessageService;
-import inui.models.statistic.GameEvent;
 import io.micrometer.core.instrument.util.IOUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.Disposable;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.time.Duration;
-import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import static java.lang.ClassLoader.getSystemResourceAsStream;
@@ -52,40 +50,46 @@ public class EventClient {
             String s = IOUtils.toString(
                     requireNonNull(getSystemResourceAsStream(file)),
                     UTF_8);
-            var gameEvents = JsonConverter.objectFromJson(s, new TypeReference<List<GameEvent>>() {
+            var gameEvents = JsonConverter.objectFromJson(s, new TypeReference<List<CSPluginEvent>>() {
             });
-            Collections.reverse(gameEvents);
-            var messages = gameEvents.stream()
-                    .map(gameEvent -> {
-                        try {
-                            return new EventMessage().setEvent(objectMapper.writeValueAsString(gameEvent));
-                        } catch (JsonProcessingException e) {
-                            return new EventMessage().setEvent("{}");
-                        }
-                    })
-                    .map(Mono::just)
-//                    .map(message -> webClient
+            gameEvents.sort(Comparator.comparingInt(CSPluginEvent::getTick));
+            Flux.fromIterable(gameEvents)
+                    .sort(Comparator.comparingInt(CSPluginEvent::getTick))
+                    .delayElements(Duration.ofMillis(100))
+                    .flatMap(this::sendWebClient)
+                    .subscribe();
+
+//            var messages = gameEvents.stream()
+//                    .map(Mono::just)
+////                    .map(message -> webClient
+////                            .post()
+////                            .uri("/api/v1/statistics")
+////                            .body(message, EventMessage.class)
+////                            .retrieve()
+////                            .bodyToMono(String.class)
+////                            .subscribe())
+//                    .toList();
+//            log.info("resp {}", messages);
+//
+//           messages.forEach(message -> webClient
 //                            .post()
 //                            .uri("/api/v1/statistics")
-//                            .body(message, EventMessage.class)
+//                            .body(message, GameEvent.class)
 //                            .retrieve()
 //                            .bodyToMono(String.class)
-//                            .subscribe())
-                    .toList();
-            log.info("resp {}", messages);
-
-            Flux.fromIterable(messages)
-//                    .delayElements(Duration.ofMillis(100))
-                    .flatMap(message -> webClient
-                            .post()
-                            .uri("/api/v1/statistics")
-                            .body(message, EventMessage.class)
-                            .retrieve()
-                            .bodyToMono(String.class))
-                    .subscribe(tuple2 -> log.info("RESPONSE: {}", tuple2));
+//                           .subscribe(response -> log.info("RESPONSE: {}", response)));
         } catch (Exception e) {
             log.error("ERROR:{}", e.getMessage());
         }
+    }
+
+    private Mono<String> sendWebClient(CSPluginEvent event) {
+        return webClient
+                .post()
+                .uri("/api/v1/statistics")
+                .body(BodyInserters.fromValue(event))
+                .retrieve()
+                .bodyToMono(String.class);
     }
 
 }

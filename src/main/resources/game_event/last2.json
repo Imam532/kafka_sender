@@ -1,0 +1,162 @@
+{
+  "id": "661d2ba6d4a6c637bc77baf8",
+  "lobbyId": "vEIb-QDJV-M1EJ",
+  "type": "game5x5",
+  "status": "CREATE_MATCH",
+  "team": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "Hardbass",
+      "avatarSrc": "https://cdn.inuisoftware.com/prod-inui-filestorage-bucket-image/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_2901ac1a-99c1-4209-a39e-a103312611bf.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "left": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "Hardbass",
+      "avatarSrc": "https://cdn.inuisoftware.com/prod-inui-filestorage-bucket-image/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_2901ac1a-99c1-4209-a39e-a103312611bf.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "PGSH11MTNGEUAFPD",
+      "steamId": "76561198055181039",
+      "nickname": "Sam",
+      "avatarSrc": "https://s3.amazonaws.com/prod-inui-filestorage-bucket-image/PGSH11MTNGEUAFPD%2F2023%2F10%2F0bb43f4f-dc2b-41f6-b92b-967c759e193a.jpg",
+      "publicName": "",
+      "owner": false,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    },
+    {
+      "userId": "51GJGUO0KEFK3MHW",
+      "steamId": "76561199003375588",
+      "nickname": "onesecplz",
+      "avatarSrc": "https://cdn.inuisoftware.com/prod-inui-filestorage-bucket-image/PROFILE_AVATAR/51GJGUO0KEFK3MHW_65133524-69b4-4a3f-8afc-ca45d0bb9684.gif",
+      "publicName": "",
+      "owner": false,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    }
+  ],
+  "spect": [
+    {
+      "userId": "PGSH11MTNGEUAFPD",
+      "steamId": "76561198055181039",
+      "nickname": "Sam",
+      "avatarSrc": "https://s3.amazonaws.com/prod-inui-filestorage-bucket-image/PGSH11MTNGEUAFPD%2F2023%2F10%2F0bb43f4f-dc2b-41f6-b92b-967c759e193a.jpg",
+      "publicName": "",
+      "owner": false,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "51GJGUO0KEFK3MHW",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    },
+    {
+      "userId": "PGSH11MTNGEUAFPD",
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates",
+        "region": "mena"
+      }
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "length": "SHORT",
+  "map": [
+    "de_mirage"
+  ],
+  "url": null,
+  "connectionCode": "vEIb-QDJV-M1EJ",
+  "ownerId": "LER47QJSFN2ZJQ0V",
+  "deleted": false,
+  "autoCreated": false,
+  "waitServer": false,
+  "mode": "custom_mode",
+  "votePhase": null,
+  "lobbyPassword": null,
+  "spectate": [],
+  "createdDate": "2024-04-15T13:29:10.324"
+}

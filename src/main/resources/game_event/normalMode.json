@@ -1,0 +1,447 @@
+{
+  "id": "6669973432686f4eb9f61908",
+  "lobbyId": "ce0z-3SY7-CJ1T",
+  "type": null,
+  "status": "START",
+  "left": [
+    {
+      "userId": "NN1PAI3FDFLKUFJH",
+      "steamId": "76561198073973690",
+      "nickname": "reamor-",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/NN1PAI3FDFLKUFJH/2023/7/92562bce-c930-47a3-829d-b2c641ca1d97.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "87.116.135.57",
+        "city": "",
+        "lon": "21",
+        "lat": "44",
+        "countryCode": "RS",
+        "countryName": "Serbia"
+      }
+    },
+    {
+      "userId": "2AL415XCRK8UHJRN",
+      "steamId": "76561199699035628",
+      "nickname": "zywoot",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/2AL415XCRK8UHJRN_901cb7b0-29e7-4e53-a47a-90be3cba8870.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "TM3AUDIG8GPZBYGP",
+      "steamId": "76561199699190378",
+      "nickname": "apext",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/TM3AUDIG8GPZBYGP_9e3b0823-19e0-4888-bef9-6d8828505b85.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "1RRUK6O5Y0FM2JOD",
+      "steamId": "76561199699089436",
+      "nickname": "magiskt",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/1RRUK6O5Y0FM2JOD_b428c0fd-0d70-48f6-bed4-6e6d7ebd5222.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "UXMFUFBGTJYCUQCH",
+      "steamId": "76561199699538712",
+      "nickname": "apex",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/UXMFUFBGTJYCUQCH_3e88a4e2-09bb-4792-a8dc-d6efa8522a81.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "LV8QYNBTRZ9RIFQF",
+      "steamId": "76561198073239050",
+      "nickname": "kuzmitch",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/LV8QYNBTRZ9RIFQF/2023/8/584c2f7e-e28a-435d-ad0d-37fa42532fec.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia"
+      }
+    },
+    {
+      "userId": "TWXDRT3HS8SCIOHP",
+      "steamId": "76561198069175768",
+      "nickname": "frosty",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "MSYQEXU6VW8SIP42",
+      "steamId": "76561199488195669",
+      "nickname": "vitalii",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/MSYQEXU6VW8SIP42/2023/10/7ad9f1a5-9eac-43ad-9376-63a86d4ff1d6.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "DU2K26ANLFOJEJ8J",
+      "steamId": "76561199003375588",
+      "nickname": "eINUI",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/DU2K26ANLFOJEJ8J_d0d8944c-2014-4b27-8023-a9a2eed3286b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "87.116.135.57",
+        "city": "",
+        "lon": "21",
+        "lat": "44",
+        "countryCode": "RS",
+        "countryName": "Serbia"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "MSYQEXU6VW8SIP42",
+      "steamId": "76561199488195669",
+      "nickname": "vitalii",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/MSYQEXU6VW8SIP42/2023/10/7ad9f1a5-9eac-43ad-9376-63a86d4ff1d6.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "NN1PAI3FDFLKUFJH",
+      "steamId": "76561198073973690",
+      "nickname": "reamor-",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/NN1PAI3FDFLKUFJH/2023/7/92562bce-c930-47a3-829d-b2c641ca1d97.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "87.116.135.57",
+        "city": "",
+        "lon": "21",
+        "lat": "44",
+        "countryCode": "RS",
+        "countryName": "Serbia"
+      }
+    },
+    {
+      "userId": "TWXDRT3HS8SCIOHP",
+      "steamId": "76561198069175768",
+      "nickname": "frosty",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia"
+      }
+    },
+    {
+      "userId": "2AL415XCRK8UHJRN",
+      "steamId": "76561199699035628",
+      "nickname": "zywoot",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/2AL415XCRK8UHJRN_901cb7b0-29e7-4e53-a47a-90be3cba8870.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "UXMFUFBGTJYCUQCH",
+      "steamId": "76561199699538712",
+      "nickname": "apex",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/UXMFUFBGTJYCUQCH_3e88a4e2-09bb-4792-a8dc-d6efa8522a81.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "DU2K26ANLFOJEJ8J",
+      "steamId": "76561199003375588",
+      "nickname": "eINUI",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/DU2K26ANLFOJEJ8J_d0d8944c-2014-4b27-8023-a9a2eed3286b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "87.116.135.57",
+        "city": "",
+        "lon": "21",
+        "lat": "44",
+        "countryCode": "RS",
+        "countryName": "Serbia"
+      }
+    },
+    {
+      "userId": "LV8QYNBTRZ9RIFQF",
+      "steamId": "76561198073239050",
+      "nickname": "kuzmitch",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/LV8QYNBTRZ9RIFQF/2023/8/584c2f7e-e28a-435d-ad0d-37fa42532fec.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "1RRUK6O5Y0FM2JOD",
+      "steamId": "76561199699089436",
+      "nickname": "magiskt",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/1RRUK6O5Y0FM2JOD_b428c0fd-0d70-48f6-bed4-6e6d7ebd5222.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    },
+    {
+      "userId": "TM3AUDIG8GPZBYGP",
+      "steamId": "76561199699190378",
+      "nickname": "apext",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/TM3AUDIG8GPZBYGP_9e3b0823-19e0-4888-bef9-6d8828505b85.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "94.200.57.86",
+        "city": "Dubai",
+        "lon": "55.3047",
+        "lat": "25.2582",
+        "countryCode": "AE",
+        "countryName": "United Arab Emirates"
+      }
+    }
+  ],
+  "teams": [],
+  "length": null,
+  "map": [
+    "de_nuke"
+  ],
+  "url": "52.57.5.238:27015",
+  "connectionCode": "ce0z-3SY7-CJ1T",
+  "ownerId": null,
+  "region": null,
+  "lobbyPassword": null,
+  "spectate": [],
+  "waitingZone": [],
+  "createdDate": null,
+  "mode": "normal_mode",
+  "ready": true
+}

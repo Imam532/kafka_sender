@@ -1,0 +1,121 @@
+{
+  "id": "664dd0585f60a11d0c0d8fb9",
+  "lobbyId": "pkMI-u64V-oB3w",
+  "type": "game5x5",
+  "status": "START",
+  "team": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "imamdin532",
+      "pro": false,
+      "verified": false,
+      "owner": true,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "left": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "imamdin532",
+      "pro": false,
+      "verified": false,
+      "owner": true,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "EQVX7WRARAOPJAH5",
+      "steamId": "76561198001387923",
+      "nickname": "ant1kvar",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/EQVX7WRARAOPJAH5/2023/8/b0e28e1c-d001-47d5-b03d-bfbe9d766041.gif",
+      "publicName": "ant1kvar",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "94.140.134.59",
+        "city": "",
+        "lon": "37.6068",
+        "lat": "55.7386",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "EQVX7WRARAOPJAH5",
+      "userLocation": {
+        "ip": "94.140.134.59",
+        "city": "",
+        "lon": "37.6068",
+        "lat": "55.7386",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    },
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    }
+  ],
+  "length": "SHORT",
+  "map": [
+    "de_ancient"
+  ],
+  "url": "3.28.133.22:27015",
+  "connectionCode": "pkMI-u64V-oB3w",
+  "ownerId": "LER47QJSFN2ZJQ0V",
+  "deleted": false,
+  "autoCreated": false,
+  "waitServer": true,
+  "region": "europe",
+  "mode": "custom_mode",
+  "votePhase": null,
+  "lobbyPassword": null,
+  "spectate": [],
+  "waitingZone": [],
+  "createdDate": "2024-05-22T11:00:40.591"
+}

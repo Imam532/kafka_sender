@@ -1,0 +1,1072 @@
+[
+  {
+    "winner_series": "blue",
+    "blue_series_score": 1,
+    "red_series_score": 0,
+    "status": "ended",
+    "matchid": "match-27",
+    "tick": 38278,
+    "event": "series_end"
+  },
+  {
+    "winner_map": "blue",
+    "blue": {
+      "series_score": 1,
+      "side": "ct",
+      "score": 6
+    },
+    "red": {
+      "series_score": 0,
+      "side": "t",
+      "score": 0
+    },
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38199,
+    "event": "map_result"
+  },
+  {
+    "winner_map": "blue",
+    "blue": {
+      "series_score": 1,
+      "side": "ct",
+      "score": 6
+    },
+    "red": {
+      "series_score": 0,
+      "side": "t",
+      "score": 0
+    },
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38178,
+    "event": "map_result"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 6,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 1200,
+            "one_v_one": 1,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 6,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38178,
+    "event": "round_end"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"reason":9,"round_number":6,"map_number":0,"matchid":"match-27","tick":38178,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 31,
+      "armor_damage": 6
+    },
+    "teammate": false,
+    "headshot": false,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 40.0,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 6,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38178,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 3,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 31,
+      "armor_damage": 6
+    },
+    "round_number": 6,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38178,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38178, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":38171, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38172, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38165, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 2,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 25,
+      "armor_damage": 5
+    },
+    "round_number": 6,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 38159,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38159, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38152, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38116, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38110, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38103, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38097, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":38093, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":38091, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":20858, "silenced": false, "round_number": 6, "map_number":0, "event":"weapon_fire","weapon":"weapon_molotov"},
+  {
+    "overtime": null,
+    "round_number": 6,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 20858,
+    "event": "round_start"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 5,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 1200,
+            "one_v_one": 0,
+            "one_v_two": 1
+          }
+        }
+      ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 20277,
+    "event": "round_end"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"reason":9,"round_number":5,"map_number":0,"matchid":"match-27","tick":19636,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_awp",
+      "hp_damage": 107,
+      "armor_damage": 1
+    },
+    "teammate": false,
+    "headshot": false,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 4.7306643,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 19636,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 8,
+    "weapon_info": {
+      "name": "weapon_awp",
+      "hp_damage": 107,
+      "armor_damage": 1
+    },
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18242,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":19636, "silenced": false, "round_number": 5, "map_number":0, "event":"weapon_fire","weapon":"weapon_awp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "t"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 70,
+      "armor_damage": 14
+    },
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 19635,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":19635, "silenced": false, "round_number": 5, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":19587, "silenced": false, "round_number": 5, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "t"
+    },
+    "hit_group": 2,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 7,
+      "armor_damage": 1
+    },
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 19580,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":19580, "silenced": false, "round_number": 5, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "overtime": null,
+    "round_number": 5,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 19580,
+    "event": "round_start"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 4,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 1200,
+            "one_v_one": 1,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18900,
+    "event": "round_end"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18291, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18283, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"t"},"reason":9,"round_number":4,"map_number":0,"matchid":"match-27","tick":18272,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 152,
+      "armor_damage": 5
+    },
+    "teammate": false,
+    "headshot": false,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 4.7306643,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18272,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 2,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 22,
+      "armor_damage": 4
+    },
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18272,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18272, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 76,
+      "armor_damage": 16
+    },
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18242,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18262, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 2,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 7,
+      "armor_damage": 1
+    },
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 18242,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18242, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18213, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":18185, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":18183, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":18158, "silenced": false, "round_number": 4, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {
+    "overtime": null,
+    "round_number": 4,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12750,
+    "event": "round_start"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 3,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 1200,
+            "one_v_one": 0,
+            "one_v_two": 1
+          }
+        }
+      ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 17536,
+    "event": "round_end"
+  },
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": null,
+    "hit_group": 0,
+    "weapon_info": null,
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 17077,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":16901, "silenced": false, "round_number": 3, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"reason":9,"round_number":3,"map_number":0,"matchid":"match-27","tick":16895,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 152,
+      "armor_damage": 5
+    },
+    "teammate": false,
+    "headshot": true,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 4.7306643,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 16895,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 90,
+      "armor_damage": 19
+    },
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 16895,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":16895, "silenced": false, "round_number": 3, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":16867, "silenced": false, "round_number": 3, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 90,
+      "armor_damage": 19
+    },
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 16860,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":16860, "silenced": false, "round_number": 3, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"round_number": 3, "map_number":0,"matchid":"match-27","tick":15005,"event":"bomb_planted"},
+  {
+    "overtime": null,
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12750,
+    "event": "round_start"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 2,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 0,
+            "one_v_one": 0,
+            "one_v_two": 1
+          }
+        }
+      ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12740,
+    "event": "round_end"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12735, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198005117797","side":"t"},"reason":9,"round_number":2,"map_number":0,"matchid":"match-27","tick":12714,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_deagle",
+      "hp_damage": 152,
+      "armor_damage": 5
+    },
+    "teammate": false,
+    "headshot": true,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 4.7306643,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12714,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_deagle",
+      "hp_damage": 152,
+      "armor_damage": 5
+    },
+    "round_number": 2,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12714,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12714, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12479, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12472, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12466, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12459, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12458, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12453, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12447, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 3,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 20,
+      "armor_damage": 4
+    },
+    "round_number": 2,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12440,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12440, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12434, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12427, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12421, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12415, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12408, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12208, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12201, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12194, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12179, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12173, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12171, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12166, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12125, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12119, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12114, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 3,
+    "weapon_info": {
+      "name": "weapon_m4a1_silencer",
+      "hp_damage": 29,
+      "armor_damage": 6
+    },
+    "round_number": 2,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 12106,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12106, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12099, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12093, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":12005, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":12000, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11999, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11989, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11983, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11907, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11900, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11871, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11864, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11734, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":11728, "silenced": false, "round_number": 2, "map_number":0, "event":"weapon_fire","weapon":"weapon_m4a1_silencer"},
+  {
+    "overtime": null,
+    "round_number": 2,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 10999,
+    "event": "round_start"
+  },
+  {
+    "reason": 9,
+    "winner_round": {
+      "side": "ct",
+      "team": "blue"
+    },
+    "blue": {
+      "series_score": 0,
+      "score": 1,
+      "players": [
+        {
+          "steamid": "76561198005117797",
+          "stats": {
+            "money_spent": 0,
+            "one_v_one": 0,
+            "one_v_two": 1
+          }
+        }
+        ]
+    },
+    "red": {
+      "series_score": 0,
+      "score": 0,
+      "players": [
+        {
+          "steamid": "76561198001387923",
+          "stats": {
+            "money_spent": 500,
+            "one_v_one": 0,
+            "one_v_two": 0
+          }
+        }
+      ]
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 10978,
+    "event": "round_end"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"t"},"reason":9,"round_number":1,"map_number":0,"matchid":"match-27","tick":10337,"event":"round_mvp"},
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "weapon_info": {
+      "no_scope": false,
+      "name": "weapon_deagle",
+      "hp_damage": 33,
+      "armor_damage": 0
+    },
+    "teammate": false,
+    "headshot": true,
+    "thru_smoke": false,
+    "penetrated": 0,
+    "attacker_inair": false,
+    "attacker_blind": false,
+    "dominated": 0,
+    "hit_group": 1,
+    "revenge": 0,
+    "distance": 4.7306643,
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "assist": null,
+    "round_number": 3,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 10337,
+    "event": "player_death"
+  },
+  {
+    "victim": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "attacker": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 0,
+    "weapon_info": {
+      "name": "weapon_deagle",
+      "hp_damage": 137,
+      "armor_damage": 5
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 10337,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":10337, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 1,
+    "weapon_info": {
+      "name": "weapon_hkp2000",
+      "hp_damage": 58,
+      "armor_damage": 28
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 10332,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":10332, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":10210, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_deagle"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":10003, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":9048, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 0,
+    "weapon_info": {
+      "name": "weapon_hkp2000",
+      "hp_damage": 19,
+      "armor_damage": 9
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 9017,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":9017, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":8567, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":8556, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 0,
+    "weapon_info": {
+      "name": "weapon_hkp2000",
+      "hp_damage": 15,
+      "armor_damage": 7
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 8544,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":8544, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":8510, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "attacker": {
+      "steamid": "76561198001387923",
+      "side": "t"
+    },
+    "hit_group": 0,
+    "weapon_info": {
+      "name": "hkp2000",
+      "hp_damage": 16,
+      "armor_damage": 7
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 8494,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198001387923","side":"t"},"matchid":"match-27","tick":8494, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_hkp2000"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":8458, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_glock"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":8078, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_glock"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":8026, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_glock"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":8000, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_glock"},
+  {
+    "victim": {
+      "steamid": "76561198005117797",
+      "side": "ct"
+    },
+    "hit_group": 0,
+    "weapon_info": {
+      "name": "",
+      "hp_damage": 75,
+      "armor_damage": 0
+    },
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 7884,
+    "event": "player_hurt"
+  },
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":7592, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_glock"},
+  {"attacker":{"steamid":"76561198005117797","side":"ct"},"matchid":"match-27","tick":5926, "silenced": false, "round_number": 1, "map_number":0, "event":"weapon_fire","weapon":"weapon_knife_t"},
+  {
+    "overtime": null,
+    "round_number": 1,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 8586,
+    "event": "round_start"
+  },
+  {
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 8586,
+    "event": "going_live"
+  },
+  {
+    "team": "blue",
+    "side": "t",
+    "swapped": true,
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 7687,
+    "event": "knife_won"
+  },
+  {
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 5143,
+    "event": "knife_start"
+  },
+  {
+    "player": {
+      "steamid": "76561198001387923"
+    },
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 1297,
+    "event": "player_connected"
+  },
+  {
+    "player": {
+      "steamid": "76561198005117797"
+    },
+    "map_number": 0,
+    "matchid": "match-27",
+    "tick": 1296,
+    "event": "player_connected"
+  },
+  {
+    "num_maps": 1,
+    "matchid": "match-27",
+    "tick": 295,
+    "event": "series_start"
+  }
+]

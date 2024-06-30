@@ -1,5 +1,0 @@
-[
-  {
-    "event": "{\"matchID\":\"321\",\"scoreT\":6,\"lineups\":{\"2\":[76561198073239050],\"3\":[]},\"tick\":56780,\"player_scores\":[{\"score\":6,\"client\":1,\"steamid\":\"76561198073239050\",\"deaths\":7,\"assists\":0,\"kills\":-1,\"mvp\":2}],\"type\":\"round_start\",\"scoreCT\":2}"
-  }
-]
