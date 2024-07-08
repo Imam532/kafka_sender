@@ -14,11 +14,7 @@ import lombok.experimental.Accessors;
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class Stats {
     private int moneySpent;
-    private int oneVOne;
-    private int oneVTwo;
-    private int oneVThree;
-    private int oneVFour;
-    private int oneVFive;
+    private int moneyEarned;
     private int kills;
     private int deaths;
     private int assists;
@@ -28,4 +24,5 @@ public class Stats {
     private int backstabsKnife;
     private int chatMessages;
     private double kast;
+    private Clutches clutches;
 }
