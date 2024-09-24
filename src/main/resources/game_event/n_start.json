@@ -1,0 +1,226 @@
+{
+  "lobbyId": "NaBgO-me9b-by7f",
+  "url": "3.73.225.81:27015",
+  "region": "europe-paris",
+  "ownerId": "",
+  "connectionCode": "NaBgO-me9b-by7f",
+  "type": "game5x5",
+  "left": [
+    {
+      "userId": "D8XODCY7UGNG8ZRJ",
+      "steamId": "76561199233335645",
+      "nickname": "amnestyxd",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "NEM8DWTJAKJTGIJ0",
+      "steamId": "76561199440723418",
+      "nickname": "emzter",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "ZG6UWWURGXDXGTCA",
+      "steamId": "76561199095815946",
+      "nickname": "onlyfanz",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "SHAMN5GGPM2OBYZQ",
+      "steamId": "76561198943189729",
+      "nickname": "magazen",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "8X2H1RLMAWKCG6WC",
+      "steamId": "76561198022892521",
+      "nickname": "bAd",
+      "avatarSrc": "https://cdn.inuisoftware.com/prod-inui-filestorage-bucket-image/PROFILE_AVATAR/8X2H1RLMAWKCG6WC_b80f6496-a673-41b7-b98a-b02c7e5e4c84.gif",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    }
+  ],
+  "spectate": [],
+  "right": [
+    {
+      "userId": "XLVWWBV3WWNBZPNV",
+      "steamId": "76561198134265271",
+      "nickname": "wohs",
+      "avatarSrc": "https://cdn.inuisoftware.com/prod-inui-filestorage-bucket-image/PROFILE_AVATAR/XLVWWBV3WWNBZPNV_941f43dc-9150-43f1-9137-f81b791cf7a9.gif",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "BPWFUJIJ4R7AZP6G",
+      "steamId": "76561199019846410",
+      "nickname": "forzet",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "G1EAUNVBEYATAGA0",
+      "steamId": "76561198178472190",
+      "nickname": "qckslvr",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "CWXQ5NUHXVZYHTKS",
+      "steamId": "76561199084980394",
+      "nickname": "w0ody",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    },
+    {
+      "userId": "CFTJP7NVNMUB3ZHO",
+      "steamId": "76561198329003935",
+      "nickname": "tako",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "rank": "",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": 13.4050,
+        "lat": 52.5200,
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "Berlin"
+      }
+    }
+  ],
+  "length": "SHORT",
+  "mode": "normal_mode",
+  "map": ["de_mirage"]
+}

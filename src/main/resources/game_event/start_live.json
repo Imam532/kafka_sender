@@ -1,0 +1,214 @@
+{
+  "id": "66a115e44fbc7548965c9b45",
+  "lobbyId": "NOaQN-zfzT-UC24",
+  "type": null,
+  "status": "START",
+  "left": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    },
+    {
+      "userId": "PQMEXRMQG958MGBF",
+      "steamId": "76561199686726153",
+      "nickname": "frozen",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2FPQMEXRMQG958MGBF_f5868e1e-6adb-4596-a24d-2afbe7ddb13a.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "66JC9MTTDUGNHUDW",
+      "steamId": "76561199686962595",
+      "nickname": "niko",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2F66JC9MTTDUGNHUDW_bf5622af-15e8-487c-b030-d82e1d07ea5b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    },
+    {
+      "userId": "ADIVWF10L6HRUYXL",
+      "steamId": "76561199003375588",
+      "nickname": "maden",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2FADIVWF10L6HRUYXL_70efb143-1ca0-4dd0-a1bb-762525e7bbc8.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "LER47QJSFN2ZJQ0V",
+      "steamId": "76561198005117797",
+      "nickname": "NotGouse",
+      "avatarSrc": "https://cdn.testing.inui.store/testing-media-storage/PROFILE_AVATAR/LER47QJSFN2ZJQ0V_5ba133f2-3fa3-4707-a941-49ea85386a4b.gif",
+      "publicName": "",
+      "owner": true,
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "185.153.47.28",
+        "city": "Makhachkala",
+        "lon": "47.5022",
+        "lat": "42.9753",
+        "countryCode": "RU",
+        "countryName": "Russia",
+        "region": "europe"
+      }
+    },
+    {
+      "userId": "66JC9MTTDUGNHUDW",
+      "steamId": "76561199652984395",
+      "nickname": "niko",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2F66JC9MTTDUGNHUDW_bf5622af-15e8-487c-b030-d82e1d07ea5b.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    },
+    {
+      "userId": "PQMEXRMQG958MGBF",
+      "steamId": "76561199686726153",
+      "nickname": "frozen",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2FPQMEXRMQG958MGBF_f5868e1e-6adb-4596-a24d-2afbe7ddb13a.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    },
+    {
+      "userId": "ADIVWF10L6HRUYXL",
+      "steamId": "76561199003375588",
+      "nickname": "maden",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2FADIVWF10L6HRUYXL_70efb143-1ca0-4dd0-a1bb-762525e7bbc8.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    }
+  ],
+  "teams": [
+    {
+      "userId": "ADIVWF10L6HRUYXL",
+      "steamId": "76561199003375588",
+      "nickname": "maden",
+      "avatarSrc": "https://s3.amazonaws.com/stage-inui-filestorage-bucket-image/PROFILE_AVATAR%2FADIVWF10L6HRUYXL_70efb143-1ca0-4dd0-a1bb-762525e7bbc8.gif",
+      "publicName": null,
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": null,
+      "ban": null,
+      "rank": null,
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany"
+      }
+    }
+  ],
+  "length": null,
+  "map": [
+    "de_inferno"
+  ],
+  "url": "52.59.53.84:27015&sdf:sad",
+  "connectionCode": "NOaQN-zfzT-UC24",
+  "ownerId": null,
+  "region": "europe",
+  "lobbyPassword": null,
+  "spectate": [],
+  "waitingZone": [],
+  "createdDate": null,
+  "mode": "normal_mode",
+  "searchStartTime": "2024-07-24T14:55:32.138",
+  "ready": true
+}

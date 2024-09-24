@@ -1,0 +1,6 @@
+[
+{"event":"live_server","tick":7761},
+{"player":{"steamid":"76561199055372453"},"map_number":0,"matchid":"CIJbG-Z9Kn-6jaV","event":"player_connected","tick":4947},
+{"player":{"steamid":"76561199048146581"},"map_number":0,"matchid":"CIJbG-Z9Kn-6jaV","event":"player_connected","tick":2631},
+{"num_maps":1,"matchid":"CIJbG-Z9Kn-6jaV","event":"series_start","tick":145}
+]

@@ -1,0 +1,122 @@
+{
+  "id": "66a69ad7e9325a113c32cb0a",
+  "lobbyId": "CIJbG-Z9Kn-6jaV",
+  "type": "game5x5",
+  "status": "START",
+  "team": [
+    {
+      "userId": "FSQKRDUIVWNTACPS",
+      "steamId": "76561199055372453",
+      "nickname": "akram",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "akram",
+      "pro": false,
+      "verified": false,
+      "owner": true,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "europe"
+      }
+    }
+  ],
+  "left": [
+    {
+      "userId": "FSQKRDUIVWNTACPS",
+      "steamId": "76561199055372453",
+      "nickname": "akram",
+      "avatarSrc": "https://cdn.inuisoftware.com/assets/defaults/profile/avatar.png",
+      "publicName": "akram",
+      "pro": false,
+      "verified": false,
+      "owner": true,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "unranked",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "europe"
+      }
+    }
+  ],
+  "right": [
+    {
+      "userId": "LMHKCGZYJBIQ6UA2",
+      "steamId": "76561199048146581",
+      "nickname": "mahdi",
+      "avatarSrc": "blob:http://localhost:5449/8547039d-9d55-4c46-8ae3-aaf0fa7045dc",
+      "publicName": "mahdi",
+      "pro": false,
+      "verified": false,
+      "owner": false,
+      "userStatus": "ONLINE",
+      "ban": null,
+      "rank": "UNRANKED",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "europe"
+      }
+    }
+  ],
+  "readyStatus": [
+    {
+      "userId": "LMHKCGZYJBIQ6UA2",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "europe"
+      }
+    },
+    {
+      "userId": "FSQKRDUIVWNTACPS",
+      "userLocation": {
+        "ip": "",
+        "city": "Berlin",
+        "lon": "13.4050",
+        "lat": "52.5200",
+        "countryCode": "DE",
+        "countryName": "Germany",
+        "region": "europe"
+      }
+    }
+  ],
+  "length": "SHORT",
+  "map": [
+    "de_mirage"
+  ],
+  "url": "10.25.11.186:8090&3.73.225.81:27015",
+  "connectionCode": "CIJbG-Z9Kn-6jaV",
+  "ownerId": "FSQKRDUIVWNTACPS",
+  "deleted": false,
+  "autoCreated": false,
+  "waitServer": true,
+  "region": "europe",
+  "mode": "custom_mode",
+  "votePhase": null,
+  "lobbyPassword": null,
+  "spectate": [],
+  "waitingZone": [],
+  "createdDate": "2024-07-28T19:24:07.352",
+  "gameVersion": 1
+}

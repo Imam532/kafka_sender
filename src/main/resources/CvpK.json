@@ -1,0 +1,9 @@
+[
+ {"event":"live_server","tick":15443},
+ {"player":{"steamid":"76561199003375588"},"client_button_leave":false,"reason":2,"map_number":0,"matchid":"CeGTj-GTZJ-kvpK","event":"player_disconnected","tick":13493},
+ {"player":{"steamid":"76561198073239050"},"client_button_leave":false,"reason":2,"map_number":0,"matchid":"CeGTj-GTZJ-kvpK","event":"player_disconnected","tick":13276},
+ {"event":"live_server","tick":7763},
+ {"player":{"steamid":"76561198073239050"},"map_number":0,"matchid":"CeGTj-GTZJ-kvpK","event":"player_connected","tick":2884},
+ {"player":{"steamid":"76561199003375588"},"map_number":0,"matchid":"CeGTj-GTZJ-kvpK","event":"player_connected","tick":2722},
+ {"num_maps":1,"matchid":"CeGTj-GTZJ-kvpK","event":"series_start","tick":147}
+ ]

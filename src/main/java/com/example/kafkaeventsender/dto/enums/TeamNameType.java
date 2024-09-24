@@ -9,7 +9,7 @@ public enum TeamNameType {
     RED("red"),
     BLUE("blue"),
     NONE("none"),
-    DRAW("unknown");
+    DRAW("draw");
 
     @JsonValue
     public final String winner;

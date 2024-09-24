@@ -8,7 +8,7 @@ group = 'com.inui'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '17'
 
-var modelVersion = "0.3.17"
+var modelVersion = "0.3.71"
 var eventVersion = "0.0.13"
 
 var lombokVersion = "1.18.24"

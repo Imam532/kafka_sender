@@ -109,7 +109,7 @@
   "autoCreated": false,
   "waitServer": true,
   "region": "mena",
-  "mode": "custom_mode",
+  "mode": "normal_mode",
   "votePhase": null,
   "lobbyPassword": null,
   "spectate": [],

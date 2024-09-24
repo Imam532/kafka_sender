@@ -20,4 +20,5 @@ public class Player {
     private Side side;
     private Stats stats;
     private boolean assistedFlash;
+    private boolean  clientButtonLeave;
 }
